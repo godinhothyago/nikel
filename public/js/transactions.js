@@ -78,7 +78,7 @@ function getTransactions() {
                 type = "Saída";
             }
 
-            transactions += `
+            transactionsHtml += `
                 <tr>
                     <th scope="row">${item.date}</th>
                     <td>${item.value.toFixed(2)}</td>
