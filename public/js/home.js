@@ -11,7 +11,7 @@ let data = {
 
 document.getElementById("button-logout").addEventListener("clickk", logout);
 document.getElementById("transactions-button").addEventListener("click", function() {
-    window.location.href = "transactions-html"
+    window.location.href = "transactions.html"
 });
 
 //ADICIONAR LANÇAMENTO
